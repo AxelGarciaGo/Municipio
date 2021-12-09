@@ -1,0 +1,174 @@
+body{
+  /*Diseño del cuerpo del menú*/
+  background-image: url('../Images and icons/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+.imgNav{
+  margin: 1px;
+  vertical-align: baseline;
+  height: 98px;
+  width: 20%;
+  float:left;
+}
+
+ul {
+  /*Diseño para la lista de los menús desplegales*/
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px 10px;
+  overflow: hidden;
+  background-color: #474747e5;
+  border-radius: 5px;
+  height: 100px;
+  
+}
+
+li {
+  /*Diseño para los puntos de las listas*/
+  float: left;
+  margin:4px;
+  padding: 15px 10px;
+}
+
+/*Estilos de los puntos de las linstas, links y una clase*/
+li a, .dropbtn {
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+
+}
+/*Elementos de acción*/
+li a:hover:not(.active), .dropdown:hover .dropbtn {
+  background-color: #50073f;
+  color: white;
+}
+/*Diseño de la clase active*/
+.active {
+  background-color: #ffd000;
+  color: black;
+}
+/*Diseño de clase*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0);
+  z-index: 1;
+  border-radius: 7px;
+}
+/*Diseño de clase y links*/
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*Diseo de cambio*/
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+/*Diseño de cambio*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Diseñño de la clase disabled*/
+.disabled{
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+/*Diseño para las etiquetas*/
+label{
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	color: #ffffff;
+}
+/*diseño para la clase input*/
+.input{
+	width: 25%;
+	border-radius: 7px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	transition-duration: 0.4s;
+	border:1px solid #B0BEC5;;
+}
+
+/*diseño a cambiar de la clase input*/
+.input:hover{
+	box-shadow: 0 12px 16px 0 rgb(76, 51, 77);
+}
+/*Diseño de los botones*/
+.button{
+	text-transform: uppercase;
+	background-color: #cf9f00;
+	color: black;
+	width: 150px;
+	font-weight: bold;
+	transition-duration:0.4s;
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 5px 10px;
+}
+/*Cambio de diseño en los botones de clase .button*/
+.button:hover{
+	background-color: white;
+	color: #4e0479;
+}
+/*Diseño para los input desactivados*/
+input:disabled {
+  background: white;
+}
+/*Diseño de tablas*/
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+/*diseño para las filas de una tabla*/
+td{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #402070;
+}
+/*diseño de campos de las filas*/
+th{
+    border: 2px solid #402070;
+    background-color: #e6bb00;
+    padding: 10px;
+}
+/*diseño del encabezado de una tabla*/
+thead{
+  font-style: oblique;
+  color: #000000;
+}
+/*diseño del cuerpo de una tabla */
+tbody{
+    color: #50073f;
+    font-weight: bold;
+}
+/*Diseño para la clase ticket*/
+.recibo{
+  background-color: #ffffffb9;
+  width: 30%;
+  height: 450px;
+  color: #50073f;
+  
+}
+/*Diseño para la clase ti*/
+.ti{
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
